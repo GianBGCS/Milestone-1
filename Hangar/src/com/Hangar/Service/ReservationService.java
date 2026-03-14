@@ -7,29 +7,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * ═══════════════════════════════════════════════════
- * PACKAGE : Service
- * FILE    : ReservationService.java
- * ═══════════════════════════════════════════════════
- *
- * All business logic for the reservation system.
- * Talks to the database only through ReservationDAO.
- *
- * Features:
- *   [1] Create Aircraft Reservation
- *   [2] Validate Slot Availability
- *   [3] Validate Aircraft Size Fit
- *
- * FLOW:
- *   UI → ReservationService → ReservationDAO → SQLite DB
- *
- * HOW TO USE FROM UI:
- *
- *   ReservationService service = new ReservationService();
- *   ServiceResult result = service.createReservation(...);
- *   if (result.isSuccess()) { ... }
- */
+
 public class ReservationService {
 
     // ── Constants ─────────────────────────────────────────────────────────────
